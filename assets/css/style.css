@@ -1,0 +1,118 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  background-color: #212529;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main container styles */
+.container {
+  max-width: 800px;
+  margin: 10% auto; /* Adjusted margin for vertical centering */
+  padding: 20px;
+  text-align: center; /* Center the content */
+}
+#game {
+  top: -50px;
+  position: relative;
+}
+/* Button styles */
+.btn {
+  font-size: 50px;
+  padding: 10px 20px;
+  height: 8rem;
+  width: 8rem;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Result styles */
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Score styles */
+#score {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #dc3545;
+}
+
+/* Explanation button styles */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #138496;
+}
+
+/* Explanation text styles */
+#explain-game {
+  margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #212529;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .btn,
+  button {
+    font-size: 25px;
+    padding: 8px 16px;
+  }
+  #game {
+    top: -25px;
+    position: relative;
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Rock Paper Scissors Lizard Spock</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+    <main class="container">
+      <div id="game">
+        <button class="btn" data-choice="rock" id="rock">
+          <i class="fas fa-hand-back-fist"></i>
+        </button>
+        <button class="btn" data-choice="paper" id="paper">
+          <i class="fas fa-hand"></i>
+        </button>
+        <button class="btn" data-choice="scissors" id="scissors">
+          <i class="fas fa-hand-scissors"></i>
+        </button>
+        <button class="btn" data-choice="lizard" id="lizard">
+          <i class="fas fa-hand-lizard"></i>
+        </button>
+        <button class="btn" data-choice="spock" id="spock">
+          <i class="fas fa-hand-spock"></i>
+        </button>
+      </div>
+      <div id="result"></div>
+      <div id="score">
+        Score: <span id="user-score">0</span> -
+        <span id="computer-score">0</span>
+      </div>
+      <button id="explain-button">Explain Game</button>
+      <div id="explain-game"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Rock Paper Scissors Lizard Spock Game</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/2923c1a5ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
