@@ -1,6 +1,6 @@
 # Welcome to Interstellar Hand Duel!
 
-![Website](assets/images/Website-screenshot.png)
+![Website](documentary/website-screenshot.png)
 
 Prepare for an out-of-this-world experience as you face off against the computer in our extended version of the classic Rock, Paper, Scissors game. Welcome to Interstellar Hand Duel, where the cosmic elements of Rock, Paper, Scissors, Lizard, and Spock collide in an epic battle. Take on the computer in this thrilling hand-to-hand cosmic combat across the vastness of space!
 
