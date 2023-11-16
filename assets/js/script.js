@@ -2,6 +2,7 @@
 const userScoreElement = document.getElementById("user-score");
 const computerScoreElement = document.getElementById("computer-score");
 const resultElement = document.getElementById("result");
+const explainElement = document.getElementById("explain-game");
 
 // Initialize scores
 let userScore = 0;
@@ -88,21 +89,28 @@ function endGame() {
 function explainGame() {
   console.log("Explaining the game");
 
-  resultElement.innerHTML =
-    "Welcome to Rock Paper Scissors Lizard Spock!<br><br>" +
-    "Rules:<br>" +
-    "Rock crushes Scissors<br>" +
-    "Scissors cuts Paper<br>" +
-    "Paper covers Rock<br>" +
-    "Rock crushes Lizard<br>" +
-    "Lizard poisons Spock<br>" +
-    "Spock smashes Scissors<br>" +
-    "Scissors decapitates Lizard<br>" +
-    "Lizard eats Paper<br>" +
-    "Paper disproves Spock<br>" +
-    "Spock vaporizes Rock<br><br>" +
-    "Click on the buttons to make your choice and try to win 3 rounds against the computer.";
+  // Toggle the visibility of the explanation element
+  explainElement.style.display = explainElement.style.display === "none" ? "block" : "none";
+
+  // If the explanation is visible, update its content
+  if (explainElement.style.display !== "none") {
+    explainElement.innerHTML =
+      "Welcome to Rock Paper Scissors Lizard Spock!<br><br>" +
+      "Rules:<br>" +
+      "Rock crushes Scissors<br>" +
+      "Scissors cuts Paper<br>" +
+      "Paper covers Rock<br>" +
+      "Rock crushes Lizard<br>" +
+      "Lizard poisons Spock<br>" +
+      "Spock smashes Scissors<br>" +
+      "Scissors decapitates Lizard<br>" +
+      "Lizard eats Paper<br>" +
+      "Paper disproves Spock<br>" +
+      "Spock vaporizes Rock<br><br>" +
+      "Click on the buttons to make your choice and try to win 3 rounds against the computer.";
+  }
 }
+
 
 // Event listeners for buttons
 document.querySelectorAll(".btn").forEach((button) => {
