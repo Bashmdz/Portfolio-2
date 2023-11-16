@@ -164,16 +164,16 @@ footer {
   }
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 601px) {
   body {
-    background-size: 100rem;
+    background-size: 110rem;
     background-position: -450px 50px;
   }
 }
 
 @media only screen and (min-width: 1150px) {
   body {
-    background-size: cover;
+    background-size: 130rem;
     background-position: center;
   }
 }
