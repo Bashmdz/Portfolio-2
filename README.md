@@ -40,9 +40,18 @@ Prepare for an out-of-this-world experience as you face off against the computer
 
 ## Technologies Used
 
-- HTML, CSS, and JavaScript were used to create the game.
-- Responsive design using CSS Flexbox and Media Queries.
-- Font Awesome icons for visual elements.
+## Technologies Utilized
+
+The following technologies were employed in the development of this project:
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML): Served as the foundational markup language for the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css): Used to style and structure the appearance of the site.
+- [JavaScript (JS)](https://www.w3schools.com/js/): Added interactivity and dynamic features to the site.
+- [Balsamiq](https://balsamiq.com/): Used for creating wireframes to plan the website's structure.
+- [Gitpod)](https://gitpod.io/workspaces): The primary IDE for writing and editing code during development.
+- [GitHub](https://github.com/): Used to host and manage the code repository for the website & for deployment.
+- [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de): A Chrome extension used for performance, accessibility, and best practices audits of web applications.
+
 
 ## Credits
 
