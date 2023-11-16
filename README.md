@@ -55,21 +55,41 @@ The following technologies were employed in the development of this project:
 
 ## Credits
 
-- website background song tutorial: https://www.youtube.com/watch?v=ZFqtk0Tsnsc&ab_channel=CodingBros
-
+- **website background song tutorial:** https://www.youtube.com/watch?v=ZFqtk0Tsnsc&ab_channel=CodingBros, but was deleted later
 ```js
 document.addEventListener("click", () =>
   document.getElementById("myAudio").play()
 );
 ```
+- **Explanation Button Toggle:**
+  - During the resolution of the explanation button bug, I referred to a tutorial for guidance. The bug was successfully fixed by implementing insights from the following resource: [Explanation Button Toggle Code Reference](https://stackoverflow.com/questions/9075440/javascript-button-show-hide-on-text-changed).
 
-- favicon: https://www.flaticon.com/free-icon/rock-paper-scissors_6793733
-- Game logic and initial code structure inspired by online resources and the classic Rock, Paper, Scissors game.
-- Icons from Font Awesome.
+- **Favicon:**
+  - Utilized a custom favicon available at [Flaticon](https://www.flaticon.com/free-icon/rock-paper-scissors_6793733).
+
+- **Game Code Inspiration:**
+  - The development of game logic and the initial code structure drew inspiration from various online resources. Additionally, the classic Rock, Paper, Scissors game served as a reference, with insights gained from the YouTube tutorial available at [BroCode](https://www.youtube.com/watch?v=n1_vHArDBRA&t=396s&ab_channel=BroCode).
+
+- **Icons:**
+  - Primary icons integrated into the project are sourced from Font Awesome.
 
 ## Bugs
 
--
+I encountered two bugs during the development of the project:
+
+1. **Background Audio Auto-Start:**
+  - **Issue:** The background audio on the website used to auto-start and was loud, potentially causing a negative user experience.
+  - **Solution:** The audio was removed from the code to prevent auto-start and improve user experience.
+
+2. **Explanation Button Toggle:**
+  - **Issue:** The explanation button displayed the rules, but when pressed again, it did not hide them.
+  - **Solution:** The code was fixed to ensure that pressing the explanation button toggles the visibility of the rules, showing and hiding them appropriately.
+
+```js
+  /** Toggle the visibility of the explanation element */
+  explainElement.style.display = explainElement.style.display === "none" ? "block" : "none";
+```
+
 
 ## Future Features
 
@@ -77,7 +97,9 @@ document.addEventListener("click", () =>
 
 ## Testing
 
--
+**Responsiveness testing**
+
++ The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
 ## Deployment
 

@@ -110,6 +110,8 @@ button:hover {
 
 /* Explanation text styles */
 #explain-game {
+  display: none;
+  /* Initially hide the explanation */
   margin-top: 20px;
   margin-bottom: 20px;
   color: white;
@@ -159,5 +161,19 @@ footer {
   body {
     background-size: 100rem;
     background-position: -400px 70px;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  body {
+    background-size: 100rem;
+    background-position: -450px 50px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  body {
+    background-size: cover;
+    background-position: center;
   }
 }

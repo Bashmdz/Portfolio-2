@@ -86,11 +86,11 @@ function endGame() {
 
 // Function to explain the game
 function explainGame() {
-  /** Toggle the visibility of the explanation element */
-  explainElement.style.display = explainElement.style.display === "none" ? "block" : "none";
+  // Toggle the visibility of the explanation element
+  explainElement.style.display = explainElement.style.display === "block" ? "none" : "block";
 
-  /** If the explanation is visible, update its content */
-  if (explainElement.style.display !== "none") {
+  // If the explanation is visible, update its content
+  if (explainElement.style.display === "block") {
     explainElement.innerHTML =
       "Welcome to Rock Paper Scissors Lizard Spock!<br><br>" +
       "Rules:<br>" +
