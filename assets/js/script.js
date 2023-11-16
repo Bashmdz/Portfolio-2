@@ -28,6 +28,7 @@ function getResult(user, computer) {
   console.log("Comparing choices:", user, "vs", computer);
 
   if (user === computer) {
+    document.getElementById("result").style.color = "white";
     return "It's a tie!";
   }
 
@@ -39,7 +40,7 @@ function getResult(user, computer) {
     (user === "spock" && (computer === "scissors" || computer === "rock"))
   ) {
     userScore++;
-    document.getElementById("result").style.color = "green";
+    document.getElementById("result").style.color = "lightgreen";
     console.log("You win!");
     return "You win!";
   } else {
@@ -55,8 +56,7 @@ function displayResult(result, computerChoice) {
   console.log("Displaying result:", result, "Computer chose:", computerChoice);
 
   let resultElement = document.getElementById("result");
-  resultElement.innerHTML = `${result} Computer chose ${computerChoice}. Score: ${userScore}-${computerScore}`;
-
+  resultElement.innerHTML = `${result} Computer chose ${computerChoice}.`;
   let userScoreElement = document.getElementById("user-score");
   let computerScoreElement = document.getElementById("computer-score");
   userScoreElement.textContent = userScore;

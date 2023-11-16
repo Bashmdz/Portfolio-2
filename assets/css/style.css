@@ -1,17 +1,23 @@
+@import url("https://fonts.cdnfonts.com/css/knight-warrior");
+
 /* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 /* Body styles */
 body {
   display: flex;
   flex-direction: column;
   font-family: "Arial", sans-serif;
-  background-color: #f8f9fa;
+  /* background-color: hsl(210, 17%, 98%); */
+  background-image: url(../images/RockPaperScissor-2880x1620_Lede.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #343a40;
+  font-family: "KNIGHT WARRIOR", sans-serif;
 }
 
 /* Header styles */
@@ -21,6 +27,7 @@ header {
   color: #fff;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  letter-spacing: 5px;
 }
 
 /* Main container styles */
@@ -40,7 +47,7 @@ header {
   padding: 10px 20px;
   height: 8rem;
   width: 8rem;
-  margin: 10px;
+  margin: 5px;
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -57,13 +64,21 @@ header {
 #result {
   font-size: 24px;
   margin-top: 20px;
+  letter-spacing: 2px;
 }
 
 /* Score styles */
 #score {
   margin-top: 10px;
   font-size: 18px;
-  color: #dc3545;
+  color: #000; /* Black text */
+  background-color: #fff; /* White background */
+  border: 1px solid #000; /* Black border */
+  padding: 5px; /* Add padding for better appearance */
+  max-width: 150px; /* Adjust the width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 2px;
 }
 
 /* Explanation button styles */
@@ -77,6 +92,7 @@ button {
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s;
+  letter-spacing: 2px;
 }
 
 button:hover {
@@ -87,6 +103,9 @@ button:hover {
 #explain-game {
   margin-top: 20px;
   margin-bottom: 20px;
+  color: white;
+  letter-spacing: 3px;
+  font-size: larger;
 }
 
 /* Footer styles */
@@ -99,6 +118,7 @@ footer {
   bottom: 0;
   width: 100%;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
 }
 
 /* Responsive Design */
@@ -106,14 +126,24 @@ footer {
   .container {
     padding: 10px;
   }
-
+  .btn {
+    height: 4rem;
+    width: 4rem;
+  }
   .btn,
   button {
-    font-size: 25px;
+    font-size: 35px;
     padding: 8px 16px;
   }
   #game {
     top: -25px;
     position: relative;
+  }
+  #explain-game {
+    margin-bottom: 40px;
+  }
+  body {
+    background-size: 80rem;
+    background-position: -400px 70px;
   }
 }

@@ -23,36 +23,19 @@ Welcome to the Rock Paper Scissors Lizard Spock game! This game is an extended v
 
 ## Features
 
-- **Menu Page:**
-  - Three buttons for Flash Cards, Grammar Quiz, and Spelling Quiz.
-  - Contact button for additional information.
-
-- **Flash Cards Page:**
-  - Learn and practice English vocabulary.
-  - Flip cards to see the word's topic and a descriptive picture.
-  - Pronunciation buttons for American and British pronunciation.
-
-- **Grammar Quiz Page:**
-  - Test your English grammar skills.
-  - Multiple-choice questions with feedback on correct and incorrect answers.
-
-- **Spelling Quiz Page:**
-  - Practice spelling English words.
-  - Audio questions with input for typing your answer.
-  - Check button to verify the spelling.
+- **Gameplay Mechanics:**
+- **Pattern Matching Functionality:**
+  - Engage in strategic gameplay with the ability to recognize and predict patterns in the opponent's moves.
+- **Limited Tries:**
+  - Challenge yourself with a set number of attempts before the game concludes, adding a level of difficulty and excitement.
+- **Score Tracking System:**
+  - Keep track of your performance with a comprehensive scoring system that records wins and losses.
+- **Player vs. Computer:**
+  - Enjoy by playing against the computer, testing your skills against an AI opponent.
 
 ## Screenshots
 
-![Menu Page](assets/images/screenshots/menu_page.png)
-![Flash Cards Page](assets/images/screenshots/flash_cards_page.png)
-![Grammar Quiz Page](assets/images/screenshots/grammar_quiz_page.png)
-![Spelling Quiz Page](assets/images/screenshots/spelling_quiz_page.png)
-
 ## Flowchart
-
-The flowchart represents the logic of the application:
-
-![Flowchart](assets/images/flowchart.png)
 
 ## Technologies Used
 
@@ -62,16 +45,17 @@ The flowchart represents the logic of the application:
 
 ## Credits
 
+- favicon: https://www.flaticon.com/free-icon/rock-paper-scissors_6793733
 - Game logic and initial code structure inspired by online resources and the classic Rock, Paper, Scissors game.
 - Icons from Font Awesome.
 
 ## Bugs
 
-- List any bugs that were encountered during development (if any).
+-
 
 ## Future Features
 
-- Mention any features or improvements that you plan to add in the future.
+- I'm thinking about adding an exciting feature that enables players to engage in thrilling online matches, competing against each other in real-time multiplayer games.
 
 ## Testing
 
