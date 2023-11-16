@@ -3,11 +3,17 @@ let computerScore = 0;
 
 // Function to handle user choice
 function userChoice(choice) {
+  console.log("User chose:", choice);
+
   if (userScore < 3 && computerScore < 3) {
     let choices = ["rock", "paper", "scissors", "lizard", "spock"];
     let computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
+    console.log("Computer chose:", computerChoice);
+
     let result = getResult(choice, computerChoice);
+
+    console.log("Result:", result);
 
     displayResult(result, computerChoice);
   }
@@ -19,6 +25,8 @@ function userChoice(choice) {
 
 // Function to get the result of the game
 function getResult(user, computer) {
+  console.log("Comparing choices:", user, "vs", computer);
+
   if (user === computer) {
     return "It's a tie!";
   }
@@ -32,16 +40,20 @@ function getResult(user, computer) {
   ) {
     userScore++;
     document.getElementById("result").style.color = "green";
+    console.log("You win!");
     return "You win!";
   } else {
     computerScore++;
     document.getElementById("result").style.color = "red";
+    console.log("You lose!");
     return "You lose!";
   }
 }
 
 // Function to display the result
 function displayResult(result, computerChoice) {
+  console.log("Displaying result:", result, "Computer chose:", computerChoice);
+
   let resultElement = document.getElementById("result");
   resultElement.innerHTML = `${result} Computer chose ${computerChoice}. Score: ${userScore}-${computerScore}`;
 
@@ -53,6 +65,8 @@ function displayResult(result, computerChoice) {
 
 // Function to handle the end of the game
 function endGame() {
+  console.log("Game over!");
+
   let resultElement = document.getElementById("result");
   if (userScore === 3) {
     resultElement.innerHTML =
@@ -70,6 +84,8 @@ function endGame() {
 
 // Function to explain the game
 function explainGame() {
+  console.log("Explaining the game");
+
   let resultElement = document.getElementById("explain-game");
   resultElement.innerHTML =
     "Welcome to Rock Paper Scissors Lizard Spock!<br><br>" +
