@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Document Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -12,16 +13,22 @@
       content="Rock Paper Scissors, RPS, Lizard Spock, game, online game, strategy game, entertainment, challenge, computer game"
     />
     <meta name="author" content="Bashar Zheiman" />
+
+    <!-- Stylesheet and Favicon -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+    <!-- Document Title -->
     <title>Interstellar Hand Duel</title>
   </head>
 
   <body>
+    <!-- Header Section -->
     <header>
       <h1>Interstellar Hand Duel</h1>
     </header>
 
+    <!-- Hidden Audio Element for Autoplay -->
     <iframe
       src="assets/audio/T. Bless - Korobeiniki - 8-Bit Version.mp3"
       allow="autoplay"
@@ -29,7 +36,9 @@
       id="iframeAudio"
     ></iframe>
 
+    <!-- Main Content Section -->
     <main class="container">
+      <!-- Game Buttons Section -->
       <div id="game">
         <button class="btn" data-choice="rock" id="rock" name="rock">
           <i class="fas fa-hand-back-fist" aria-hidden="true"></i>
@@ -58,27 +67,34 @@
         </button>
       </div>
 
+      <!-- Result Display Section -->
       <div id="result"></div>
 
+      <!-- Score Display Section -->
       <div id="score">
         Score: <span id="user-score">0</span> -
         <span id="computer-score">0</span>
       </div>
 
+      <!-- Explain Game Button -->
       <button id="explain-button">Explain Game</button>
 
+      <!-- Explanation Section -->
       <div id="explain-game"></div>
     </main>
 
+    <!-- Footer Section -->
     <footer>
       <p>&copy; 2023 Interstellar Hand Duel</p>
     </footer>
 
+    <!-- Font Awesome Icons -->
     <script
       src="https://kit.fontawesome.com/2923c1a5ea.js"
       crossorigin="anonymous"
     ></script>
 
+    <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
