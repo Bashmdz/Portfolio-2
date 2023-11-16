@@ -1,3 +1,9 @@
+// Declare constants for scores
+const userScoreElement = document.getElementById("user-score");
+const computerScoreElement = document.getElementById("computer-score");
+const resultElement = document.getElementById("result");
+
+// Initialize scores
 let userScore = 0;
 let computerScore = 0;
 
@@ -6,12 +12,12 @@ function userChoice(choice) {
   console.log("User chose:", choice);
 
   if (userScore < 3 && computerScore < 3) {
-    let choices = ["rock", "paper", "scissors", "lizard", "spock"];
-    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+    const computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
     console.log("Computer chose:", computerChoice);
 
-    let result = getResult(choice, computerChoice);
+    const result = getResult(choice, computerChoice);
 
     console.log("Result:", result);
 
@@ -28,7 +34,7 @@ function getResult(user, computer) {
   console.log("Comparing choices:", user, "vs", computer);
 
   if (user === computer) {
-    document.getElementById("result").style.color = "white";
+    resultElement.style.color = "white";
     return "It's a tie!";
   }
 
@@ -40,12 +46,12 @@ function getResult(user, computer) {
     (user === "spock" && (computer === "scissors" || computer === "rock"))
   ) {
     userScore++;
-    document.getElementById("result").style.color = "lightgreen";
+    resultElement.style.color = "lightgreen";
     console.log("You win!");
     return "You win!";
   } else {
     computerScore++;
-    document.getElementById("result").style.color = "red";
+    resultElement.style.color = "red";
     console.log("You lose!");
     return "You lose!";
   }
@@ -55,10 +61,7 @@ function getResult(user, computer) {
 function displayResult(result, computerChoice) {
   console.log("Displaying result:", result, "Computer chose:", computerChoice);
 
-  let resultElement = document.getElementById("result");
   resultElement.innerHTML = `${result} Computer chose ${computerChoice}.`;
-  let userScoreElement = document.getElementById("user-score");
-  let computerScoreElement = document.getElementById("computer-score");
   userScoreElement.textContent = userScore;
   computerScoreElement.textContent = computerScore;
 }
@@ -67,7 +70,6 @@ function displayResult(result, computerChoice) {
 function endGame() {
   console.log("Game over!");
 
-  let resultElement = document.getElementById("result");
   if (userScore === 3) {
     resultElement.innerHTML =
       "Congratulations! You won 3 rounds. Game restarted.";
@@ -78,15 +80,14 @@ function endGame() {
   // Reset the scores and display
   userScore = 0;
   computerScore = 0;
-  document.getElementById("user-score").textContent = "0";
-  document.getElementById("computer-score").textContent = "0";
+  userScoreElement.textContent = "0";
+  computerScoreElement.textContent = "0";
 }
 
 // Function to explain the game
 function explainGame() {
   console.log("Explaining the game");
 
-  let resultElement = document.getElementById("explain-game");
   resultElement.innerHTML =
     "Welcome to Rock Paper Scissors Lizard Spock!<br><br>" +
     "Rules:<br>" +
@@ -110,10 +111,6 @@ document.querySelectorAll(".btn").forEach((button) => {
   });
 });
 
-document
-  .getElementById("explain-button")
-  .addEventListener("click", explainGame);
+document.getElementById("explain-button").addEventListener("click", explainGame);
 
-document.addEventListener("click", () =>
-  document.getElementById("iframeAudio").play()
-);
+document.addEventListener("click", () => document.getElementById("iframeAudio").play());
