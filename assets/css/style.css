@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* Body styles */
 body {
   display: flex;
@@ -29,17 +30,22 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   letter-spacing: 5px;
 }
+
 /* Main container styles */
 .container {
   max-width: 800px;
-  margin: 10% auto; /* Adjusted margin for vertical centering */
+  margin: 10% auto;
+  /* Adjusted margin for vertical centering */
   padding: 20px;
-  text-align: center; /* Center the content */
+  text-align: center;
+  /* Center the content */
 }
+
 #game {
   top: -50px;
   position: relative;
 }
+
 /* Button styles */
 .btn {
   font-size: 50px;
@@ -70,11 +76,16 @@ header {
 #score {
   margin-top: 10px;
   font-size: 18px;
-  color: #000; /* Black text */
-  background-color: #fff; /* White background */
-  border: 1px solid #000; /* Black border */
-  padding: 5px; /* Add padding for better appearance */
-  max-width: 150px; /* Adjust the width as needed */
+  color: #000;
+  /* Black text */
+  background-color: #fff;
+  /* White background */
+  border: 1px solid #000;
+  /* Black border */
+  padding: 5px;
+  /* Add padding for better appearance */
+  max-width: 150px;
+  /* Adjust the width as needed */
   margin-left: auto;
   margin-right: auto;
   letter-spacing: 2px;
@@ -125,24 +136,29 @@ footer {
   .container {
     padding: 10px;
   }
+
   .btn {
     height: 4rem;
     width: 4rem;
   }
+
   .btn,
   button {
     font-size: 35px;
     padding: 8px 16px;
   }
+
   #game {
     top: -25px;
     position: relative;
   }
+
   #explain-game {
     margin-bottom: 40px;
   }
+
   body {
-    background-size: 80rem;
+    background-size: 100rem;
     background-position: -400px 70px;
   }
 }

@@ -78,5 +78,3 @@ document.addEventListener("click", () =>
 -
 
 ## Author
-
-Feel free to explore and enjoy the game!

@@ -12,27 +12,31 @@
       content="Rock Paper Scissors, RPS, Lizard Spock, game, online game, strategy game, entertainment, challenge, computer game"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Interstellar Hand Duel</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
+    <title>Interstellar Hand Duel</title>
   </head>
+
   <body>
     <header>
       <h1>Interstellar Hand Duel</h1>
     </header>
-    <audio
+
+    <iframe
       src="assets/audio/T. Bless - Korobeiniki - 8-Bit Version.mp3"
       allow="autoplay"
       style="display: none"
       id="iframeAudio"
-    >
-  </audio>
+    ></iframe>
+
     <main class="container">
       <div id="game">
         <button class="btn" data-choice="rock" id="rock" name="rock">
-          <i class="fas fa-hand-back-fist"></i>
+          <i class="fas fa-hand-back-fist" aria-hidden="true"></i>
+          <span class="sr-only">Rock</span>
         </button>
         <button class="btn" data-choice="paper" id="paper" name="paper">
-          <i class="fas fa-hand"></i>
+          <i class="fas fa-hand" aria-hidden="true"></i>
+          <span class="sr-only">Paper</span>
         </button>
         <button
           class="btn"
@@ -40,30 +44,40 @@
           id="scissors"
           name="scissors"
         >
-          <i class="fas fa-hand-scissors"></i>
+          <i class="fas fa-hand-scissors" aria-hidden="true"></i>
+          <span class="sr-only">Scissors</span>
         </button>
         <button class="btn" data-choice="lizard" id="lizard" name="lizard">
-          <i class="fas fa-hand-lizard"></i>
+          <i class="fas fa-hand-lizard" aria-hidden="true"></i>
+          <span class="sr-only">Lizard</span>
         </button>
         <button class="btn" data-choice="spock" id="spock" name="spock">
-          <i class="fas fa-hand-spock"></i>
+          <i class="fas fa-hand-spock" aria-hidden="true"></i>
+          <span class="sr-only">Spock</span>
         </button>
       </div>
+
       <div id="result"></div>
+
       <div id="score">
         Score: <span id="user-score">0</span> -
         <span id="computer-score">0</span>
       </div>
+
       <button id="explain-button">Explain Game</button>
+
       <div id="explain-game"></div>
     </main>
+
     <footer>
       <p>&copy; 2023 Interstellar Hand Duel</p>
     </footer>
+
     <script
       src="https://kit.fontawesome.com/2923c1a5ea.js"
       crossorigin="anonymous"
     ></script>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
