@@ -113,3 +113,7 @@ document.querySelectorAll(".btn").forEach((button) => {
 document
   .getElementById("explain-button")
   .addEventListener("click", explainGame);
+
+document.addEventListener("click", () =>
+  document.getElementById("iframeAudio").play()
+);

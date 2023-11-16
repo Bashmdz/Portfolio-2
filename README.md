@@ -1,8 +1,8 @@
-# Rock Paper Scissors Lizard Spock Game
+# Welcome to Interstellar Hand Duel!
 
-![Game Logo](assets/images/game_logo.png)
+![Website](assets/images/Website-screenshot.png)
 
-Welcome to the Rock Paper Scissors Lizard Spock game! This game is an extended version of the classic Rock, Paper, Scissors game, with additional elements to make it more interesting.
+Prepare for an out-of-this-world experience as you face off against the computer in our extended version of the classic Rock, Paper, Scissors game. Welcome to Interstellar Hand Duel, where the cosmic elements of Rock, Paper, Scissors, Lizard, and Spock collide in an epic battle. Take on the computer in this thrilling hand-to-hand cosmic combat across the vastness of space!
 
 ## How to Play
 
@@ -45,6 +45,14 @@ Welcome to the Rock Paper Scissors Lizard Spock game! This game is an extended v
 
 ## Credits
 
+- website background song tutorial: https://www.youtube.com/watch?v=ZFqtk0Tsnsc&ab_channel=CodingBros
+
+```js
+document.addEventListener("click", () =>
+  document.getElementById("myAudio").play()
+);
+```
+
 - favicon: https://www.flaticon.com/free-icon/rock-paper-scissors_6793733
 - Game logic and initial code structure inspired by online resources and the classic Rock, Paper, Scissors game.
 - Icons from Font Awesome.
@@ -59,18 +67,16 @@ Welcome to the Rock Paper Scissors Lizard Spock game! This game is an extended v
 
 ## Testing
 
-- Describe the testing process and any tools used for testing.
+-
 
 ## Deployment
 
-- Provide steps on how to deploy the game locally or on a live server.
+-
 
 ## Acknowledgements
 
-- Acknowledge any individuals, tutorials, or resources that contributed to the development of the game.
+-
 
 ## Author
-
-[Your Name]
 
 Feel free to explore and enjoy the game!
