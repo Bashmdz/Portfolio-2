@@ -10,17 +10,11 @@ let computerScore = 0;
 
 // Function to handle user choice
 function userChoice(choice) {
-  console.log("User chose:", choice);
-
   if (userScore < 3 && computerScore < 3) {
     const choices = ["rock", "paper", "scissors", "lizard", "spock"];
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
-    console.log("Computer chose:", computerChoice);
-
     const result = getResult(choice, computerChoice);
-
-    console.log("Result:", result);
 
     displayResult(result, computerChoice);
   }
@@ -32,8 +26,6 @@ function userChoice(choice) {
 
 // Function to get the result of the game
 function getResult(user, computer) {
-  console.log("Comparing choices:", user, "vs", computer);
-
   if (user === computer) {
     resultElement.style.color = "white";
     return "It's a tie!";
@@ -48,20 +40,16 @@ function getResult(user, computer) {
   ) {
     userScore++;
     resultElement.style.color = "lightgreen";
-    console.log("You win!");
     return "You win!";
   } else {
     computerScore++;
     resultElement.style.color = "red";
-    console.log("You lose!");
     return "You lose!";
   }
 }
 
 // Function to display the result
 function displayResult(result, computerChoice) {
-  console.log("Displaying result:", result, "Computer chose:", computerChoice);
-
   resultElement.innerHTML = `${result} Computer chose ${computerChoice}.`;
   userScoreElement.textContent = userScore;
   computerScoreElement.textContent = computerScore;
@@ -69,8 +57,6 @@ function displayResult(result, computerChoice) {
 
 // Function to handle the end of the game
 function endGame() {
-  console.log("Game over!");
-
   if (userScore === 3) {
     resultElement.innerHTML =
       "Congratulations! You won 3 rounds. Game restarted.";
@@ -87,8 +73,6 @@ function endGame() {
 
 // Function to explain the game
 function explainGame() {
-  console.log("Explaining the game");
-
   // Toggle the visibility of the explanation element
   explainElement.style.display = explainElement.style.display === "none" ? "block" : "none";
 
@@ -110,7 +94,6 @@ function explainGame() {
       "Click on the buttons to make your choice and try to win 3 rounds against the computer.";
   }
 }
-
 
 // Event listeners for buttons
 document.querySelectorAll(".btn").forEach((button) => {
