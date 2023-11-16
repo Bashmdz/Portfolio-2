@@ -23,19 +23,20 @@ Prepare for an out-of-this-world experience as you face off against the computer
 
 ## Features
 
-- **Gameplay Mechanics:**
-- **Pattern Matching Functionality:**
-  - Engage in strategic gameplay with the ability to recognize and predict patterns in the opponent's moves.
-- **Limited Tries:**
-  - Challenge yourself with a set number of attempts before the game concludes, adding a level of difficulty and excitement.
-- **Score Tracking System:**
-  - Keep track of your performance with a comprehensive scoring system that records wins and losses.
 - **Player vs. Computer:**
   - Enjoy by playing against the computer, testing your skills against an AI opponent.
-
-## Screenshots
-
-## Flowchart
+- **Pattern Matching Functionality:**
+![feature 1](documentary/features/feature-1.png)
+  - Engage in strategic gameplay with the ability to recognize and predict patterns in the opponent's moves.
+- **Limited Tries:**
+![feature 2](documentary/features/feature-2.png)
+  - Challenge yourself with a set number of 3 attempts before the game concludes, adding a level of difficulty and excitement.
+- **Score Tracking System:**
+![feature 3](documentary/features/feature-3.png)
+  - Keep track of your performance with a comprehensive scoring system that records wins and losses.
+- **Explanation Toggle:**
+![feature 4](documentary/features/feature-4.png)
+  - Users can click on the "Explain Game" button to toggle the visibility of game rules and explanations.
 
 ## Technologies Used
 
