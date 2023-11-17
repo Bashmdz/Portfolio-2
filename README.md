@@ -58,7 +58,8 @@ The following technologies were employed in the development of this project:
 
 
 ## Credits
-
+  - **Website background image source:**
+  [Background Image](https://www.quantamagazine.org/biodiversity-may-thrive-through-games-of-rock-paper-scissors-20200305/)
   - **website background song tutorial:** https://www.youtube.com/watch?v=ZFqtk0Tsnsc&ab_channel=CodingBros, but was deleted later.
   ```js
   document.addEventListener("click", () =>
