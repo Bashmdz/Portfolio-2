@@ -1,6 +1,6 @@
 # Welcome to Interstellar Hand Duel!
 
-![Website](documentary/website-screenshot.png)
+![Website](documentary/website-layout.png)
 
 Prepare for an out-of-this-world experience as you face off against the computer in our extended version of the classic Rock, Paper, Scissors game. Welcome to Interstellar Hand Duel, where the cosmic elements of Rock, Paper, Scissors, Lizard, and Spock collide in an epic battle. Take on the computer in this thrilling hand-to-hand cosmic combat across the vastness of space!
 
@@ -24,6 +24,7 @@ Prepare for an out-of-this-world experience as you face off against the computer
 ## Features
 
 - **Player vs. Computer:**
+![Website](documentary/website-screenshot.png)
   - Enjoy by playing against the computer, testing your skills against an AI opponent.
 - **Pattern Matching Functionality:**
 ![feature 1](documentary/features/feature-1.png)
@@ -97,13 +98,25 @@ I encountered two bugs during the development of the project:
 
 **Responsiveness testing**
 
-![Responsitivity](documentary/tests/responsive-test.png)
-+ The website was checked with [Responsive viewer extension](https://responsiveviewer.org/).
+![responsivity](documentary/tests/responsive-test.png)
++ The website responsivity was checked with [Responsive viewer extension](https://responsiveviewer.org/).
 
 **Lighthouse Performance testing**
 
 ![Performance](documentary/tests/lighthouse-test.png)
 + The website performance was checked using [Lighthouse extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).
+
+**Code Validation**
+
+- HTML code was validated using the [W3C HTML Validator](https://validator.w3.org/).
+![Performance](documentary/tests/html-validation.png)
+
+- CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+![Performance](documentary/tests/css-validation.png)
+
+- JavaScript was validated using [JSHint](https://jshint.com/).
+![Performance](documentary/tests/js-validation.png)
+
 
 ## Deployment
 

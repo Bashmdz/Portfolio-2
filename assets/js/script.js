@@ -16,10 +16,10 @@ function userChoice(choice) {
     const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
     /** Generate a random computer choice */
-    const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
     /** Get the result of the current round */
-    const result = getResult(choice, computerChoice);
+    let result = getResult(choice, computerChoice);
 
     /** Display the result to the user */
     displayResult(result, computerChoice);
