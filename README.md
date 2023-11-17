@@ -51,6 +51,11 @@ The following technologies were employed in the development of this project:
 - [GitHub](https://github.com/): Used to host and manage the code repository for the website & for deployment.
 - [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de): A Chrome extension used for performance, accessibility, and best practices audits of web applications.
 
+## Design
+
+![Website color](documentary/design/website-colors.png)
+Deep Dark Purple Color was used to reduce visual pressure for the user.
+
 
 ## Credits
 
