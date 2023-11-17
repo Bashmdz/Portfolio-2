@@ -38,8 +38,6 @@ Prepare for an out-of-this-world experience as you face off against the computer
 ![feature 4](documentary/features/feature-4.png)
   - Users can click on the "Explain Game" button to toggle the visibility of game rules and explanations.
 
-## Technologies Used
-
 ## Technologies Utilized
 
 The following technologies were employed in the development of this project:
@@ -98,9 +96,12 @@ I encountered two bugs during the development of the project:
 ## Testing
 
 **Responsiveness testing**
+
 ![Responsitivity](documentary/Tests/responsive-test.png)
 + The website was checked with [Responsive viewer extension](https://responsiveviewer.org/).
+
 **Lighthouse Performance testing**
+
 ![Performance](documentary/Tests/lighthouse-test.png)
 + The website performance was checked using [Lighthouse extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).
 
@@ -111,10 +112,12 @@ I encountered two bugs during the development of the project:
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://github.com/Bashmdz/Portfolio-2.git)
+The live link can be found [here](https://bashmdz.github.io/Portfolio-2/)
 
 ## Acknowledgements
 
--
+- I want to express my appreciation to my mentors, **@IuliiaKonovalova** and **Rory Patrick**, for their valuable assistance and guidance throughout the project. Their insights and support have significantly contributed to its success.
+
 
 ## Author
+**@Bashmdz**
