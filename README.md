@@ -106,7 +106,12 @@ I encountered two bugs during the development of the project:
 
 ## Deployment
 
--
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Bashmdz/Portfolio-2.git), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://github.com/Bashmdz/Portfolio-2.git)
 
 ## Acknowledgements
 
