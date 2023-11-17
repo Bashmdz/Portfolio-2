@@ -54,17 +54,18 @@ The following technologies were employed in the development of this project:
 ## Design
 
 ![Website color](documentary/design/website-colors.png)
-Deep Dark Purple Color was used to reduce visual pressure for the user.
+  - The color palette chosen for the game website combines deep purple, dark blueish black, charcoal black, and white. This selection aims to create a visually immersive and focused gaming experience, conveying mystery, sophistication, and clarity in the design.
 
 
 ## Credits
 
-- **website background song tutorial:** https://www.youtube.com/watch?v=ZFqtk0Tsnsc&ab_channel=CodingBros, but was deleted later
-```js
-document.addEventListener("click", () =>
-  document.getElementById("myAudio").play()
-);
-```
+  - **website background song tutorial:** https://www.youtube.com/watch?v=ZFqtk0Tsnsc&ab_channel=CodingBros, but was deleted later.
+  ```js
+  document.addEventListener("click", () =>
+    document.getElementById("myAudio").play()
+  );
+  ```
+  
 - **Explanation Button Toggle:**
   - During the resolution of the explanation button bug, I referred to a tutorial for guidance. The bug was successfully fixed by implementing insights from the following resource: [Explanation Button Toggle Code Reference](https://stackoverflow.com/questions/9075440/javascript-button-show-hide-on-text-changed).
 
@@ -89,10 +90,10 @@ I encountered two bugs during the development of the project:
   - **Issue:** The explanation button displayed the rules, but when pressed again, it did not hide them.
   - **Solution:** The code was fixed to ensure that pressing the explanation button toggles the visibility of the rules, showing and hiding them appropriately.
 
-```js
+  ```js
   /** Toggle the visibility of the explanation element */
   explainElement.style.display = explainElement.style.display === "none" ? "block" : "none";
-```
+  ```
 
 
 ## Future Features
