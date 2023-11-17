@@ -97,12 +97,12 @@ I encountered two bugs during the development of the project:
 
 **Responsiveness testing**
 
-![Responsitivity](documentary/Tests/responsive-test.png)
+![Responsitivity](documentary/tests/responsive-test.png)
 + The website was checked with [Responsive viewer extension](https://responsiveviewer.org/).
 
 **Lighthouse Performance testing**
 
-![Performance](documentary/Tests/lighthouse-test.png)
+![Performance](documentary/tests/lighthouse-test.png)
 + The website performance was checked using [Lighthouse extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).
 
 ## Deployment
